@@ -21,7 +21,7 @@ The following packages need to be installed
 mkdir -p ~/.config/
 
 ## Clone the repository to ~/.config/nvim
-git clone --depth 1 https://github.com/aswinkarthik93/neovim-dotfiles.git ~/.config/nvim
+git clone --depth 1 https://github.com/SuguruOoki/neovim-dotfiles.git ~/.config/nvim
 
 ## Open nvim
 nvim
@@ -101,6 +101,10 @@ neovim is configured with neoformat plugin, to enable formatting for javascript:
 npm install -g prettier
 ```
 
+#### PHP
+
+going
+
 ### Go
 
 #### Autocompletion
@@ -170,8 +174,9 @@ Pull the latest changes from git and then reopen neovim/vimr and run `:PlugUpdat
 ## Try it out with Docker
 
 We have a Docker image which you use to try out this neovim config without affecting your existing setup.
+If you are using zsh, replace bash and run the command.
 
 ```
-docker run --rm -it aswinkarthik93/neovim-dotfiles bash
+docker run --rm -it SuguruOoki/neovim-dotfiles bash
 nvim
 ```
